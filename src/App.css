@@ -2,7 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-
+@font-face{
+  font-family: UnifrakturCook;
+  src: url('./assets/font/UnifrakturCook-Bold.ttf');
+  font-weight: 600;
+}
 * {
   margin: 0;
   padding: 0;
@@ -20,7 +24,7 @@ body {
   position: relative;
   background-color: #121212 !important;
   color: #fff !important;
-  font-family: 'Centra', sans-serif !important;
+  font-family: 'UnifrakturCook', sans-serif !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
