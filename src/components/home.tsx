@@ -10,10 +10,22 @@ export const Home = () => {
       style={{ backgroundImage: `url(${Image1})` }}
     >
       <div className='flex flex-col justify-center items-start h-full ml-8 gap-3'>
-        <h1 className='text-5xl fade-in' style={{ animationDelay: '0s' }}>
+        <h1
+          className='text-5xl fade-in'
+          style={{
+            animationDelay: '0s',
+            textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)'
+          }}
+        >
           O que e a comunidade Berserk Mode?
         </h1>
-        <p className='text-2xl fade-in' style={{ animationDelay: '0.3s' }}>
+        <p
+          className='text-2xl fade-in'
+          style={{
+            animationDelay: '0.3s',
+            textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)'
+          }}
+        >
           Se você quer fazer networking, compartilhar ideias, aqui você irá
           encontrar pessoas
           <br /> com a mesma mentalidade que a sua, e poderá fechar negócios,
@@ -28,13 +40,19 @@ export const Home = () => {
         </p>
         <div
           className='relative mt-3 px-6 py-2 border border-white text-white font-bold text-sm uppercase rounded-lg transition-all duration-300 hover:text-black hover:bg-white group fade-in'
-          style={{ animationDelay: '0.6s' }}
+          style={{
+            animationDelay: '0.6s',
+            textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)'
+          }}
         >
           <button className=''>Quero está oportunidade</button>
         </div>
         <div
           className='flex items-center gap-3 mt-2 fade-in'
-          style={{ animationDelay: '0.9s' }}
+          style={{
+            animationDelay: '0.9s',
+            textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)'
+          }}
         >
           <IoCart size={35} className='flex items-center' />
           <p className='text-2xl mt-4'>

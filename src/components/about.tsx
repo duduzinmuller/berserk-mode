@@ -26,7 +26,10 @@ export const About = () => {
       <div className='flex flex-col justify-center items-center h-2/3 gap-3'>
         <h1
           className={`text-5xl ${animationStarted ? 'fade-in' : ''}`}
-          style={{ animationDelay: '0.1s' }}
+          style={{
+            animationDelay: '0.1s',
+            textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)'
+          }}
         >
           Sobre a nossa Comunidade
         </h1>
@@ -34,7 +37,10 @@ export const About = () => {
           className={`text-2xl [max-width:800px] ${
             animationStarted ? 'fade-in' : ''
           }`}
-          style={{ animationDelay: '0.4s' }}
+          style={{
+            animationDelay: '0.4s',
+            textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)'
+          }}
         >
           Na Berserk Mode você irá encontrar pessoas no mesmo nível que você, ou
           até em níveis superiores, lá vai ser uma comunidade que você pode
@@ -47,7 +53,10 @@ export const About = () => {
           className={`relative mt-3 px-6 py-2 border border-white text-white font-bold text-sm uppercase rounded-lg transition-all duration-300 hover:text-black hover:bg-white group ${
             animationStarted ? 'fade-in' : ''
           }`}
-          style={{ animationDelay: '0.7s' }}
+          style={{
+            animationDelay: '0.7s',
+            textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)'
+          }}
         >
           <button className=''>Quero esta oportunidade</button>
         </div>
