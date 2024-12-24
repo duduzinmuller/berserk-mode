@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { HashLink } from 'react-router-hash-link'
 import NavIcon from '../assets/img/nav-icon1 (2).svg'
 import NavIcon2 from '../assets/img/nav-icon3 (1).svg'
-import NavIcon3 from '../assets/img/brand-tiktok-line.svg'
+import LogoIcon from '../assets/img/logo.jpg'
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState('home')
@@ -28,12 +28,21 @@ export const NavBar = () => {
   return (
     <nav
       className={`fixed w-full top-0 z-50 transition-all duration-300 ${
-        scrolled ? 'bg-black py-0' : 'bg-transparent py-4'
+        scrolled ? ' py-3' : 'bg-transparent py-3'
       }`}
     >
       <div className='container mx-auto flex items-center justify-between px-4'>
         {/* Logotipo */}
-        <div className='w-[9%]'></div>
+        <div className='w-[9%]'>
+          <HashLink to='#home'>
+            <img
+              src={LogoIcon}
+              alt='Logo'
+              className='h-10 w-auto cursor-pointer transition-transform duration-300 hover:scale-105'
+              onClick={() => linkActive('home')}
+            />
+          </HashLink>
+        </div>
 
         {/* Links de navegação */}
         <div className='hidden md:flex space-x-6'>

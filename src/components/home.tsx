@@ -6,12 +6,12 @@ export const Home = () => {
   return (
     <div
       id='home'
-      className='[height:99vh] bg-cover bg-center'
+      className='h-screen bg-cover bg-center'
       style={{ backgroundImage: `url(${Image1})` }}
     >
       <div className='flex flex-col justify-center items-start h-full ml-8 gap-3'>
-        <h1 className='text-4xl fade-in' style={{ animationDelay: '0s' }}>
-          Sobre a nossa comunidade
+        <h1 className='text-5xl fade-in' style={{ animationDelay: '0s' }}>
+          O que e a comunidade Berserk Mode?
         </h1>
         <p className='text-2xl fade-in' style={{ animationDelay: '0.3s' }}>
           Se você quer fazer networking, compartilhar ideias, aqui você irá

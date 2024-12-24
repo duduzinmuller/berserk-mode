@@ -13,7 +13,9 @@ export default [
 
   {
     rules: {
-      'react/react-in-jsx-scope': 'off'
+      'react/react-in-jsx-scope': 'off',
+      'react/no-unescaped-entities': 'off',
+      'no-irregular-whitespace': 'off'
     }
   }
 ]
