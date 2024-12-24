@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 import { useInView } from 'react-intersection-observer'
 import Image2 from '../assets/img/image23.jpg'
 import '../animation/animations.css'
@@ -58,7 +59,9 @@ export const About = () => {
             textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)'
           }}
         >
-          <button className=''>Quero esta oportunidade</button>
+          <Link to='#beneficios' className='no-underline'>
+            Quero está oportunidade
+          </Link>
         </div>
       </div>
     </div>

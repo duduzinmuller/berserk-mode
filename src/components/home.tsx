@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import Image1 from '../assets/img/image1.webp'
 import { IoCart } from 'react-icons/io5'
 import '../animation/animations.css'
@@ -45,7 +46,9 @@ export const Home = () => {
             textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)'
           }}
         >
-          <button className=''>Quero está oportunidade</button>
+          <Link to='#about' className='no-underline'>
+            Quero está oportunidade
+          </Link>
         </div>
         <div
           className='flex items-center gap-3 mt-2 fade-in'
