@@ -3,6 +3,7 @@ import { Home } from './components/home'
 import { NavBar } from './components/navbar'
 import { About } from './components/about'
 import { Beneficies } from './components/beneficies'
+import { Orcamento } from './components/orcamentos'
 import { BrowserRouter as Router } from 'react-router-dom'
 
 import BackgroundMusic from './assets/audio/background-music.mp3'
@@ -34,6 +35,7 @@ function App() {
         <Home />
         <About />
         <Beneficies />
+        <Orcamento />
       </Router>
     </div>
   )

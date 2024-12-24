@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { HashLink } from 'react-router-hash-link'
 import Image3 from '../assets/img/logobeneficies.jpg'
 import { useInView } from 'react-intersection-observer'
 import '../animation/animations.css'
@@ -92,7 +93,9 @@ export const Beneficies = () => {
             textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)'
           }}
         >
-          <button className=''>Quero esta oportunidade</button>
+          <HashLink to='#orcamentos' className='no-underline'>
+            Quero esta oportunidade
+          </HashLink>
         </div>
       </div>
     </div>
