@@ -1,16 +1,11 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import Image6 from '../assets/img/Image.jpg'
-import { useInView } from 'react-intersection-observer'
 import '../animation/animations.css'
 import { IoIosArrowUp } from 'react-icons/io'
 import { IoIosArrowDown } from 'react-icons/io'
 
 export const Answer = () => {
   const [expandedIndex, setExpandedIndex] = useState<number | null>(null)
-  const { ref, inView } = useInView({
-    triggerOnce: true,
-    threshold: 0.2
-  })
 
   const handleToggle = (index: number) => {
     setExpandedIndex(expandedIndex === index ? null : index)
@@ -44,10 +39,7 @@ export const Answer = () => {
       ></div>
 
       {/* Conteúdo */}
-      <div
-        ref={ref}
-        className='relative z-10 flex flex-col justify-center items-center h-full overflow-y-auto bg-black bg-opacity-50'
-      >
+      <div className='relative z-10 flex flex-col justify-center items-center h-full overflow-y-auto bg-black bg-opacity-50'>
         {faqData.map((item, index) => (
           <div
             key={index}
