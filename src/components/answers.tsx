@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import Image6 from '../assets/img/Image.jpg'
-import '../animation/animations.css'
 import { IoIosArrowUp } from 'react-icons/io'
 import { IoIosArrowDown } from 'react-icons/io'
 
