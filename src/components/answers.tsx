@@ -29,7 +29,6 @@ export const Answer = () => {
 
   return (
     <div className='relative h-screen w-full' style={{ overflow: 'hidden' }}>
-      {/* Fundo fixo */}
       <div
         className='absolute top-0 left-0 w-full h-full bg-cover bg-center z-0'
         style={{
@@ -37,7 +36,6 @@ export const Answer = () => {
         }}
       ></div>
 
-      {/* Conteúdo */}
       <div className='relative z-10 flex flex-col justify-center items-center h-full overflow-y-auto bg-black bg-opacity-50'>
         {faqData.map((item, index) => (
           <div
