@@ -44,7 +44,14 @@ export const Payment = () => {
             textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)'
           }}
         >
-          <button className='no-underline'>Quero esta oportunidade</button>
+          <button
+            className='no-underline'
+            onClick={() => {
+              window.location.assign('https://pay.kiwify.com.br/n3CXm5V')
+            }}
+          >
+            Quero esta oportunidade
+          </button>
         </div>
       </div>
     </div>
