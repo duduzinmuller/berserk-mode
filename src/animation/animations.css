@@ -11,3 +11,17 @@
   opacity: 0;
   animation: fadeIn 1s ease-out forwards;
 }
+
+@keyframes bounceArrow {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.bounce-arrow {
+  animation: bounceArrow 1s infinite;
+}

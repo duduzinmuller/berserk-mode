@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link'
 import NavIcon from '../assets/img/nav-icon1 (2).svg'
 import NavIcon2 from '../assets/img/nav-icon3 (1).svg'
 import LogoIcon from '../assets/img/logo.jpg'
@@ -34,14 +34,14 @@ export const NavBar = () => {
       <div className='container mx-auto flex items-center justify-between px-4'>
         {/* Logotipo */}
         <div className='w-[9%]'>
-          <Link to='#home'>
+          <HashLink to='#home'>
             <img
               src={LogoIcon}
               alt='Logo'
               className='h-10 w-auto cursor-pointer transition-transform duration-300 hover:scale-105'
               onClick={() => linkActive('home')}
             />
-          </Link>
+          </HashLink>
         </div>
 
         {/* Links de navegação */}
@@ -90,13 +90,13 @@ export const NavBar = () => {
             />
           </a>
           {/* Botão */}
-          <Link
+          <HashLink
             to='#connect'
             className='relative px-6 py-2 border border-white text-white font-bold text-sm uppercase rounded-lg transition-all duration-300 hover:text-black hover:bg-white group'
           >
             <span className='z-10 relative'>Quero esta Oportunidade</span>
             <div className='absolute inset-0 bg-white scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left'></div>
-          </Link>
+          </HashLink>
         </div>
       </div>
     </nav>

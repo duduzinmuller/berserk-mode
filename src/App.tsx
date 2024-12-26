@@ -4,6 +4,7 @@ import { NavBar } from './components/navbar'
 import { About } from './components/about'
 import { Beneficies } from './components/beneficies'
 import { Orcamento } from './components/orcamentos'
+import { Payment } from './components/payment'
 import { BrowserRouter as Router } from 'react-router-dom'
 
 import BackgroundMusic from './assets/audio/background-music.mp3'
@@ -36,6 +37,7 @@ function App() {
         <About />
         <Beneficies />
         <Orcamento />
+        <Payment />
       </Router>
     </div>
   )

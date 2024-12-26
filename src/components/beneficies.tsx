@@ -26,7 +26,7 @@ export const Beneficies = () => {
     >
       <div className='flex flex-col justify-center items-center h-3/4 gap-3'>
         <h1
-          className={`text-6xl ${animationStarted ? 'fade-in' : ''}`}
+          className={`text-5xl ${animationStarted ? 'fade-in' : ''}`}
           style={{
             animationDelay: '0.1s',
             textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)'
@@ -36,7 +36,7 @@ export const Beneficies = () => {
         </h1>
         <div className='flex text-left flex-col mt-5'>
           <p
-            className={`text-5xl ${animationStarted ? 'fade-in' : ''}`}
+            className={`text-3xl ${animationStarted ? 'fade-in' : ''}`}
             style={{
               animationDelay: '0.4s',
               textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)'
@@ -45,7 +45,7 @@ export const Beneficies = () => {
             -Networking de alto nível;
           </p>
           <p
-            className={`text-5xl ${animationStarted ? 'fade-in' : ''}`}
+            className={`text-3xl ${animationStarted ? 'fade-in' : ''}`}
             style={{
               animationDelay: '0.7s',
               textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)'
@@ -55,7 +55,7 @@ export const Beneficies = () => {
             -compartilhamento de ideias
           </p>
           <p
-            className={`text-5xl ${animationStarted ? 'fade-in' : ''}`}
+            className={`text-3xl ${animationStarted ? 'fade-in' : ''}`}
             style={{
               animationDelay: '0.9s',
               textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)'
@@ -65,7 +65,7 @@ export const Beneficies = () => {
             -local de possíveis fechamentos de negócios;
           </p>
           <p
-            className={`text-5xl ${animationStarted ? 'fade-in' : ''}`}
+            className={`text-3xl ${animationStarted ? 'fade-in' : ''}`}
             style={{
               animationDelay: '1.2s',
               textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)'
@@ -75,7 +75,7 @@ export const Beneficies = () => {
             -Seja um dos primeiros a entrar na comunidade, e faça a diferença.
           </p>
           <p
-            className={`text-5xl ${animationStarted ? 'fade-in' : ''}`}
+            className={`text-3xl ${animationStarted ? 'fade-in' : ''}`}
             style={{
               animationDelay: '1.5s',
               textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)'
