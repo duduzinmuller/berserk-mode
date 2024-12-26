@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/berserk-mode/static/css/main.5e1b944a.css",
+    "main.js": "/berserk-mode/static/js/main.64531d90.js",
+    "static/js/453.7ee4257d.chunk.js": "/berserk-mode/static/js/453.7ee4257d.chunk.js",
+    "static/media/background-music.mp3": "/berserk-mode/static/media/background-music.1511594151b7ccfc8792.mp3",
+    "static/media/image1.webp": "/berserk-mode/static/media/image1.2584f5d555d71976cca3.webp",
+    "static/media/image23.jpg": "/berserk-mode/static/media/image23.baf54308887c08d014ba.jpg",
+    "static/media/image2.jpg": "/berserk-mode/static/media/image2.6fc2c1d0994b795622b0.jpg",
+    "static/media/logobeneficies.jpg": "/berserk-mode/static/media/logobeneficies.0977cb0b89c1c54cb811.jpg",
+    "static/media/Image.jpg": "/berserk-mode/static/media/Image.f00bfa4b809edfa9da0d.jpg",
+    "static/media/image4.jpg": "/berserk-mode/static/media/image4.feccac69eeaebd8ef52a.jpg",
+    "static/media/UnifrakturCook-Bold.ttf": "/berserk-mode/static/media/UnifrakturCook-Bold.c3e4de08782a35f2d335.ttf",
+    "static/media/logo.jpg": "/berserk-mode/static/media/logo.71676fa18cf4bb4f2d98.jpg",
+    "static/media/nav-icon3 (1).svg": "/berserk-mode/static/media/nav-icon3 (1).08b285abb8e118b52637efa5d65c5367.svg",
+    "index.html": "/berserk-mode/index.html",
+    "static/media/nav-icon1 (2).svg": "/berserk-mode/static/media/nav-icon1 (2).f036938494a3437d45e3e5afbde0cbbc.svg",
+    "main.5e1b944a.css.map": "/berserk-mode/static/css/main.5e1b944a.css.map",
+    "main.64531d90.js.map": "/berserk-mode/static/js/main.64531d90.js.map",
+    "453.7ee4257d.chunk.js.map": "/berserk-mode/static/js/453.7ee4257d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e1b944a.css",
+    "static/js/main.64531d90.js"
+  ]
+}
