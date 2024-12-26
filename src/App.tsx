@@ -9,6 +9,7 @@ import { BrowserRouter as Router } from 'react-router-dom'
 
 import BackgroundMusic from './assets/audio/background-music.mp3'
 import { useEffect, useRef } from 'react'
+import { Answer } from './components/answers'
 
 function App() {
   const audioRef = useRef<HTMLAudioElement>(null)
@@ -38,6 +39,7 @@ function App() {
         <Beneficies />
         <Orcamento />
         <Payment />
+        <Answer />
       </Router>
     </div>
   )

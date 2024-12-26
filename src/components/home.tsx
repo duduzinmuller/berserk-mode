@@ -21,23 +21,20 @@ export const Home = () => {
           O que e a comunidade Berserk Mode?
         </h1>
         <p
-          className='text-2xl fade-in'
+          className='text-2xl [max-width:700px] fade-in'
           style={{
             animationDelay: '0.3s',
             textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)'
           }}
         >
           Se você quer fazer networking, compartilhar ideias, aqui você irá
-          encontrar pessoas
-          <br /> com a mesma mentalidade que a sua, e poderá fechar negócios,
-          começar projetos
-          <br /> com alguém e até obter um sócio, já imaginou ter seus projetos
-          em andamento com <br /> uma pessoa que você conheceu na comunidade? E
-          ainda conseguir clientes que queiram
-          <br /> seus serviços freelance e fazer uma renda extra com isso? Então
-          aproveite está oportunidade
-          <br /> e clique em "Quero está oportunidade", para fazer parte da
-          comunidade Berserk Mode.
+          encontrar pessoas com a mesma mentalidade que a sua, e poderá fechar
+          negócios, começar projetos com alguém e até obter um sócio, já
+          imaginou ter seus projetos em andamento com uma pessoa que você
+          conheceu na comunidade? E ainda conseguir clientes que queiram seus
+          serviços freelance e fazer uma renda extra com isso? Então aproveite
+          está oportunidade e clique em "Quero está oportunidade", para fazer
+          parte da comunidade Berserk Mode.
         </p>
         <div
           className='relative mt-3 px-6 py-2 border border-white text-white font-bold text-sm uppercase rounded-lg transition-all duration-300 hover:text-black hover:bg-white group fade-in'
