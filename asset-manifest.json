@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/berserk-mode/static/css/main.5e1b944a.css",
-    "main.js": "/berserk-mode/static/js/main.64531d90.js",
+    "main.js": "/berserk-mode/static/js/main.5ae362bc.js",
     "static/js/453.7ee4257d.chunk.js": "/berserk-mode/static/js/453.7ee4257d.chunk.js",
     "static/media/background-music.mp3": "/berserk-mode/static/media/background-music.1511594151b7ccfc8792.mp3",
     "static/media/image1.webp": "/berserk-mode/static/media/image1.2584f5d555d71976cca3.webp",
@@ -16,11 +16,11 @@
     "index.html": "/berserk-mode/index.html",
     "static/media/nav-icon1 (2).svg": "/berserk-mode/static/media/nav-icon1 (2).f036938494a3437d45e3e5afbde0cbbc.svg",
     "main.5e1b944a.css.map": "/berserk-mode/static/css/main.5e1b944a.css.map",
-    "main.64531d90.js.map": "/berserk-mode/static/js/main.64531d90.js.map",
+    "main.5ae362bc.js.map": "/berserk-mode/static/js/main.5ae362bc.js.map",
     "453.7ee4257d.chunk.js.map": "/berserk-mode/static/js/453.7ee4257d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5e1b944a.css",
-    "static/js/main.64531d90.js"
+    "static/js/main.5ae362bc.js"
   ]
 }
