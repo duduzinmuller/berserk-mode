@@ -46,7 +46,7 @@ export const NavBar = () => {
 
         {/* Links de navegação */}
         <div className='hidden md:flex space-x-6'>
-          {['home', 'about', 'beneficios', 'orcamentos'].map((link) => (
+          {['Inicio', 'Sobre', 'Beneficios', 'Orçamentos'].map((link) => (
             <a
               key={link}
               href={`#${link}`}
